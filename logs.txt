@@ -1,0 +1,9 @@
+Initialisation
+Initialised the project: npm create vite@latest
+
+Tailwind:
+Installed tailwind using: npm install tailwindcss @tailwindcss/vite and edited vite.config.js
+Put @import "tailwindcss"; in app.css
+
+Github:
+git init, 
