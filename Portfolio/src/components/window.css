@@ -1,0 +1,31 @@
+.window {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top-bar {
+    display: grid;
+    grid-template-columns: 0.91fr 0.6fr 0.2fr 0.15fr;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    background-color: blue;
+    color: white;
+}
+
+.window-control {
+    justify-self: end;
+    border: white 1px solid;
+    padding: 0px 4px 0px 4px;
+    color: white;
+    cursor: default;
+}
+
+.iframe {
+    min-width: inherit;
+    min-height: inherit;
+}
