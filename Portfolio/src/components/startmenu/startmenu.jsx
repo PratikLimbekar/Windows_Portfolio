@@ -31,6 +31,9 @@ function Startmenu() {
                         <div className='content' onClick={() => (handleWindow("Portfolio"))}>
                             Portfolio
                         </div>
+                        <div className='content' onClick={() => (handleWindow("NotePad"))}>
+                            NotePad
+                        </div>
                     </div>
                     <div className='column-two'>
                         <div className='content'>
@@ -40,10 +43,10 @@ function Startmenu() {
                 </div>
                 <div className='bottom-bar'>
                     <div></div>
-                    <div className='button'>
+                    <div className='button' onClick={() => window.open('https://linkedin.com/in/pratik-limbekar')}> {/*Remember window.open()*/}
                         <img></img>LinkedIn
                     </div>
-                    <div className='button'>
+                    <div className='button' onClick={() => window.open('https://github.com/PratikLimbekar')}>
                         GitHub
                     </div>
                 </div>

@@ -1,0 +1,62 @@
+.binary {
+    max-width: 80px;
+    width: 10vw;
+    background-color: rgb(31, 24, 24);
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: default;
+    height: 5vh;
+    max-height: 1000px;
+}
+
+.binary-expanded {
+    max-width: 400px;
+    width: 100vw;
+    background-color: rgb(31, 24, 24);
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.user-query {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    gap: 10px;
+}
+
+.user-query:active {
+    border: 2px solid white;
+}
+
+.send {
+    padding: 5px;
+    font-size: medium;
+    color: rgba(255,255,255,0.7);
+}
+
+.send:hover {
+    background-color: white;
+    color: black;
+}
+
+.send:active {
+    background-color: blue;
+    color: white;
+}

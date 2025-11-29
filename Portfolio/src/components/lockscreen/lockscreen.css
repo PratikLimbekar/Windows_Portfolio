@@ -1,0 +1,75 @@
+.lockscreen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #245DDA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ls-topbar {
+    background-color: blue;
+    max-height: 100px;
+    height: 20vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+
+.ls-middle{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.ls-left {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ls-right {
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    padding: 20px;
+    border-radius: 5px;
+    width: 40vw;
+    max-width: 250px;
+}
+
+.user:hover {
+    background-image: linear-gradient(to right, blue 10%, rgba(0,0,0,0.1));
+    padding: 20px;
+    border-radius: 5px 0px 0px 5px;
+    width: 40vw;
+    cursor: default;
+
+}
+
+.username {
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.ls-bottom {
+    background-color: blue;
+    max-height: 100px;
+    height: 20vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+}
+

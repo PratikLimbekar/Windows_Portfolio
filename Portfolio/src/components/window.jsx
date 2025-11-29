@@ -25,7 +25,7 @@ function Window() {
                 <div className='window-control'>
                     🗖
                 </div>
-                <div className='window-control' onClick={handleClose}>
+                <div className='window-close' onClick={handleClose}>
                     X
                 </div>
             </div>
